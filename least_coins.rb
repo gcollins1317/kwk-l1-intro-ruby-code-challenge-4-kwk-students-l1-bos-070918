@@ -6,7 +6,7 @@ def least_coins(cents)
   nickel = 0 
   penny = 0 
 until cents == 0 
-if cents >= 25 
+if cents >=25 
   quarter +=1 
   cents -=25
 elsif cents >=10 
