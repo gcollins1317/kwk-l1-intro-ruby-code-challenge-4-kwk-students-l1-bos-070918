@@ -27,4 +27,4 @@ puts coins = {
 }
 return coins 
 end
-least_coins(29)
+least_coins(gets.chomp) 
