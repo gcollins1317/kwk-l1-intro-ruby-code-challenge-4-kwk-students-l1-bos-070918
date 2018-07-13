@@ -1,6 +1,10 @@
 #write out your code here
 
 def least_coins(cents)
+  quarter = 0 
+  dime = 0 
+  nickel = 0 
+  penny = 0 
 while cents > 0 
 if cents >= 25 
   quarter = (cents/25) 
