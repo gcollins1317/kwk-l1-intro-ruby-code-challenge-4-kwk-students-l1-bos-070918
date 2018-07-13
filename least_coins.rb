@@ -7,16 +7,16 @@ def least_coins(cents)
   penny = 0 
 until cents == 0 
 if cents >= 25 
-  quarter = (cents/25) 
-  cents = cents - (quarter * 25)
+  quarter +=1 
+  cents -=25
 elsif cents >=10 
-  dime = (cents/10)
-  cents = cents - (dime * 10)
+  dime +=1
+  cents -=10 
 elsif cents >=5 
-  nickel = (cents/5) 
-  cents = cents - (nickel * 5)
+  nickel +=1 
+  cents -=5 
 elsif cents >=1 
-  penny = cents
+  penny = cents 
 end 
 end 
 puts coins = {
